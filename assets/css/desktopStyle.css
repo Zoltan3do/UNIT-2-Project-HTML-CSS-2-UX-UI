@@ -288,6 +288,7 @@ hr {
 
 /* FOOTER */
 footer {
+    width: 50%;
     margin-right: 20px;
     font-family: "roboto", sans-serif;
 }
@@ -338,5 +339,6 @@ header {
 
 footer {
     position: sticky;
-    top: 50px
+    top: 0;
+    right:0
 }
