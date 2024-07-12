@@ -337,7 +337,8 @@ header {
 
 footer {
     position: sticky;
-    top: 0;
+    top: 75px;
+     height: max-content; 
 }
 
 /* M */
