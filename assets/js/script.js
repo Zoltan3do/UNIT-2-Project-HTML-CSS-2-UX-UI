@@ -17,23 +17,16 @@ function animation() {
     let lettere = document.querySelectorAll('#gigi > g');
 
     function casual() {
-        for(let j = 0; j < 100; j++)
-        for (let i = 0; i < lettere.length; i++) {
-            let numeroRandom = Math.floor(Math.random() * lettere.length);
-            setTimeout(() => {
-               alternate(lettere[numeroRandom]);
-            }, j * 2000);
-        }
+        for (let j = 0; j < 100; j++)
+            for (let i = 0; i < lettere.length; i++) {
+                let numeroRandom = Math.floor(Math.random() * lettere.length);
+                setTimeout(() => {
+                    alternate(lettere[numeroRandom]);
+                }, j * 2000);
+            }
     }
     casual();
 }
-
-function alternate (lettera) {
-    if (lettera.style.opacity === '1') {
-        lettera.style.opacity = '0';
-    } else {
-        lettera.style.opacity = '1';
-    }
-}
+const alternate = (lettera) => lettera.style.opacity = lettera.style.opacity === '1' ? "0" : "1";
 
 animation();
