@@ -13,7 +13,8 @@ ul {
 header {
     border-bottom: 2px solid black;
     background-color: #ffc017;
-    font-family: "roboto", sans-serif
+    font-family: "roboto", sans-serif;
+    transition-duration: 0.3; 
 }
 
 header img {
