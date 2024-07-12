@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-
-
 /* HEADER */
 header,
 ul {
@@ -340,4 +338,9 @@ header {
 footer {
     position: sticky;
     top: 0;
+}
+
+/* M */
+#casual > g {
+    opacity: 0;
 }
